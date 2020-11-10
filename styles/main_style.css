@@ -150,8 +150,12 @@ ul li a:hover .name span{
 .product-images {
     display:flex;
     justify-content: space-around;
+}
+
+.product-images img {
     width: 25%;
 }
+
 footer {
     margin-top: 10px;
     position: relative;
