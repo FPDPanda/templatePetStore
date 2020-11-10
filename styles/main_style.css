@@ -153,7 +153,11 @@ ul li a:hover .name span{
 }
 
 .product-images img {
-    width: 25%;
+    margin-left: 2%;
+}
+
+.product-images img:first-child {
+    margin-left: 0;
 }
 
 footer {
@@ -166,7 +170,7 @@ footer {
     height: 10px;
 }
 
-@media (max-width:1600px) and (min-width:900px) {
+@media (max-width:1600px) and (min-width:901px) {
     #img_header img {
         display: none
     }
@@ -178,21 +182,27 @@ footer {
         display: flex;
         justify-content: center;
     }
+
     #content-block1 {
         width: 70%;
         flex-direction: column;
         align-items: center;
     }
+
+    .product-images {
+        display: flex;
+        justify-content: space-around;
+    }
+
     #content-block1 img {
-        width: 50%;
+        width: 70%;
         margin-bottom: 0;
     }
+
     #content-block2 {
         width: 70%;
     }
-    #content-block2 img {
-        width: 25%;
-    }
+
     #nav-bar {
         display: none;
     }
