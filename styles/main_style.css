@@ -123,14 +123,15 @@ ul li a:hover .name span{
     margin-bottom:2rem;
 }
 
+.text h1 {
+    text-align: center;
+}
+
 .text {
     display: flex;
     flex-direction: column;
     padding: 10px;
-}
-
-.text h1 {
-    text-align: center;
+    line-height: 1.5;
 }
 
 #content-block2 {
