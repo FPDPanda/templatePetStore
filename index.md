@@ -59,15 +59,13 @@
             </li>
         </ul>
     </nav>
-
-    <div id="content-block1">
+        <div id="content-block1">
         <img src="img/paw-prints-background.jpg" alt="colored paw prints">
         <div class="text">
         <a id="sobre"><h1>Sobre nós</h1></a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse enim odio, tincidunt sit amet sagittis sed, suscipit a metus. Integer iaculis aliquet justo, sit amet convallis massa mollis eu. Phasellus at interdum dolor. Praesent blandit finibus augue, et posuere ipsum ornare non. Aenean at lorem commodo, fermentum neque ut, hendrerit turpis. Duis vitae velit nisi. Cras sollicitudin sapien sed ligula rhoncus rhoncus. Ut sit amet felis vitae nunc rhoncus dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sit amet eros at ex pulvinar vehicula. Donec sollicitudin nisi vel massa pharetra, vulputate placerat lorem blandit.</p>
         </div>
     </div>
-
     <div id="content-block2">
         <a id="produtos"><h1>Nossos Produtos</h1></a>
         <div class="product-images">
@@ -76,9 +74,6 @@
             <img src="img/paw-prints-background.jpg" alt="colored paw prints">
         </div>
     </div>
-
-    <footer>
-
-    </footer>
+    <footer></footer>
 </body>
 </html>
