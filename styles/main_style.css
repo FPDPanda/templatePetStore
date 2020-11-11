@@ -156,7 +156,7 @@ ul li a:hover .name span{
 .product-images img {
     margin-left: 2%;
     width: 35%;
-    height: 30%;
+    height: auto;
 }
 
 .product-images img:first-child {
