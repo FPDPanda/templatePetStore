@@ -200,7 +200,8 @@ footer {
     }
 
     #content-block2 {
-        width: 70%;
+        width: 80%;
+        object-fit: contain;
     }
 
     #nav-bar {
