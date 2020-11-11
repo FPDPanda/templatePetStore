@@ -2,6 +2,7 @@
 A template for a landing page for a pet store.
 
 LINK: https://pet-jj.imfast.io/
+https://fpdpanda.github.io/templatePetStore/
 
 # Images
 ![screenshot](https://i.ibb.co/r5ztNTH/1.png)
