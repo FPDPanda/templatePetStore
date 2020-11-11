@@ -1,1 +1,84 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div id="img_header">
+            <img src="logos/company_logo.jpg" alt="company logo">
+        </div>
+         <ul id="nav-bar">
+             <li>
+                <a href="#">
+                    <div class="icon">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </div>
+                    <div class="name"><span data-text="Home">Home</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="#sobre">
+                    <div class="icon">
+                        <i class="fa fa-paw" aria-hidden="true"></i>    
+                        <i class="fa fa-paw" aria-hidden="true"></i>                   
+                    </div>
+                    <div class="name"><span data-text="Sobre Nós">Sobre Nós</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="#produtos">
+                    <div class="icon">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </div>
+                    <div class="name"><span data-text="Produtos">Produtos</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/jeanpdp/" target="_blank">
+                    <div class="icon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                    <div class="name"><span data-text="Instagram">Instagram</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/jean-jacques000/" target="_blank">
+                    <div class="icon">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                    <div class="name"><span data-text="Linkedin">Linkedin</span></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="content-block1">
+        <img src="img/paw-prints-background.jpg" alt="colored paw prints">
+        <div class="text">
+        <a id="sobre"><h1>Sobre nós</h1></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse enim odio, tincidunt sit amet sagittis sed, suscipit a metus. Integer iaculis aliquet justo, sit amet convallis massa mollis eu. Phasellus at interdum dolor. Praesent blandit finibus augue, et posuere ipsum ornare non. Aenean at lorem commodo, fermentum neque ut, hendrerit turpis. Duis vitae velit nisi. Cras sollicitudin sapien sed ligula rhoncus rhoncus. Ut sit amet felis vitae nunc rhoncus dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sit amet eros at ex pulvinar vehicula. Donec sollicitudin nisi vel massa pharetra, vulputate placerat lorem blandit.</p>
+        </div>
+    </div>
+
+    <div id="content-block2">
+        <a id="produtos"><h1>Nossos Produtos</h1></a>
+        <div class="product-images">
+            <img src="img/paw-prints-background.jpg" alt="colored paw prints">
+            <img src="img/paw-prints-background.jpg" alt="colored paw prints">
+            <img src="img/paw-prints-background.jpg" alt="colored paw prints">
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
