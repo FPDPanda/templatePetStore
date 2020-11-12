@@ -199,8 +199,7 @@ footer {
         margin-bottom: 0;
     }
 
-    #content-block2 {
-        width: 100%;
+    #content-block2 img {
         object-fit: contain;
     }
 
